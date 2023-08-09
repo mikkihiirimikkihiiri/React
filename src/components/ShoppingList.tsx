@@ -13,7 +13,7 @@ export default function ShoppingList(props: Shoppinglistprops): JSX.Element {
       <h1>shoppinglist</h1>
       <ul>
         {props.items.map((item) => (
-          <li key={item.id}>{item.product}-{item.quantity}</li>
+          <li key={item.id}>{item.product}----{item.quantity}</li>
         ))}
       </ul>
     </div>
